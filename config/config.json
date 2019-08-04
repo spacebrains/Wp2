@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wp-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wp2/Wp2WebPart.js",
+          "manifest": "./src/webparts/wp2/Wp2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Wp2WebPartStrings": "lib/webparts/wp2/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
