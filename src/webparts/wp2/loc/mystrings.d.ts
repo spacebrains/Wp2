@@ -5,10 +5,10 @@ declare interface IWp2WebPartStrings {
   DescriptionListsFieldLabel: string;
   DescriptionNumberOfItemsFieldLabel: string;
   DescriptionODataFilterFieldLabel: string;
-  WebPartTitle:string;
-  UrlNotFound:string;
-  ChoiceAListOr:string;
-  CreateNew:string;
+  WebPartTitle: string;
+  UrlNotFound: string;
+  ChoiceAListOr: string;
+  CreateNew: string;
 
 }
 
